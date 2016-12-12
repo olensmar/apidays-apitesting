@@ -14,6 +14,7 @@
         <module>modules/restassured</module>
         <module>modules/readyapi4j</module>
         <module>modules/generatedclient</module>
+        <module>modules/httpclient</module>
     </modules>
 
 
