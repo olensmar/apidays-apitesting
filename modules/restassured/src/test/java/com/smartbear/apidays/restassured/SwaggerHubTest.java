@@ -33,7 +33,8 @@ public class SwaggerHubTest {
 
         String url = response.path("apis[0].properties[0].url");
 
-        given().get(url).
+        given().
+            get(url).
             then().
             contentType(ContentType.JSON).
             body("info.title", equalTo("TestServer"));
