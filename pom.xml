@@ -15,6 +15,7 @@
         <module>modules/readyapi4j</module>
         <module>modules/generatedclient</module>
         <module>modules/httpclient</module>
+        <module>modules/cucumber4apis</module>
     </modules>
 
 
